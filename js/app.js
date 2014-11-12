@@ -25,7 +25,9 @@ class App {
     }
 }
 
-var app = new App(new Game(
-    new Player(), new Machine(), new GameView(document.getElementById('message')))
+var app = new App(
+    new Game(
+        new Player(), new Machine(), new GameView(document.getElementById('message')), document
+    )
 );
 app.start();
