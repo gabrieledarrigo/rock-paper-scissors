@@ -20,6 +20,6 @@ First install all deps:
 
 	$ npm install
 
-Than run all tests: 
+Then run all tests: 
 
 	$ mocha --compilers js:mocha-traceur -R spec test 
