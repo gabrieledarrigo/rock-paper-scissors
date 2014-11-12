@@ -1,0 +1,19 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "0.0.1",
+  "description": "A simple Rock, Paper, Scissors! game written with ES6.",
+  "main": "index.html",
+  "keywords": [
+    "games",
+    "es6",
+    "acirdesign"
+  ],
+  "author": "Gabriele D'Arrigo - @acirdesign",
+  "devDependencies": {
+    "traceur": "0.0.74",
+    "mocha": "~2.0.1",
+    "mocha-traceur": "~2.0.0",
+    "expect.js": "~0.3.1",
+    "jsdom": "~1.2.1"
+  }
+}

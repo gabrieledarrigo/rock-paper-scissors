@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#game {
+    margin: 0 auto;
+    width: 640px;
+}
+#title {
+    text-align: center;
+}
+#message {
+    text-align: center;
+}
+.game-button {
+    border: 1px solid #EDEDED;
+    display: inline-block;
+    height: 200px;
+    line-height: 200px;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.game-button:hover {
+    cursor: pointer;
+    background-color: #EDEDED;
+}
