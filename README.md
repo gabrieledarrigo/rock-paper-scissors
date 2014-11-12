@@ -12,8 +12,7 @@ or serve the game with a simple:
 
 ## Test
 
-All test are written with [mocha](https://github.com/mochajs/mocha) test framework.  
-[expect.js](https://github.com/LearnBoost/expect.js/) library is used for the various asserts;  
+All test are written with [mocha](https://github.com/mochajs/mocha) test framework; [expect.js](https://github.com/LearnBoost/expect.js/) library is used for the various asserts.  
 Because all game's module are ES6 module the test runner use [mocha-traceur](https://www.npmjs.org/package/mocha-traceur) to transpile the code.
 
 First install all deps:
